@@ -23,7 +23,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './index'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -33,7 +33,7 @@ module.exports = {
   plugins: [new webpack.HotModuleReplacementPlugin(), 
 ],
   devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
+    contentBase: path.resolve(__dirname, './index'),
     hot: true,
     historyApiFallback: true,
     publicPath: '/', 
