@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+
+}
+.button {
+    border: solid black 1px;
+    font-size: 15px;
+    color: #050505;
+    padding: 10px;
+    min-width: 100px; 
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .success { 
+    background-color: #797f8a;
+  }
+  .container {
+
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .row {
+  
+    border: none;
+    margin: 15px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+  }
+  
+  .column {
+    border: none;
+    margin: 15px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    width: auto; 
+  }
+  .item {
+    
+    margin: 20px; 
+    overflow: auto; 
+    width: auto; 
+    padding: 5px; 
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+  
+  }
+  .nft {
+    background-color: #045b8a;
+    
+  }
+  .balance {
+    background-color: #fff;
+  }
