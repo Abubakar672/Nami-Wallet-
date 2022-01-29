@@ -12,7 +12,7 @@ npm install
 // Return to your main workplace
 cd ../..
 ```
-To run the application start the node process with
+//To run the application start the node process with
 ```
 npm run start
 ```
